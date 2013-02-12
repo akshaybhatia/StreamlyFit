@@ -1,0 +1,829 @@
+@font-face {
+    font-family: 'webfontregular';
+    src: url('humanist_521_light_bt-webfont.eot');
+    src: url('humanist_521_light_bt-webfont.eot?#iefix') format('embedded-opentype'),
+         url('humanist_521_light_bt-webfont.woff') format('woff'),
+         url('humanist_521_light_bt-webfont.ttf') format('truetype'),
+         url('humanist_521_light_bt-webfont.svg#webfontregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{margin:0px; padding:0px; font-family:webfontregular;}
+span,p,div,ul,h1,h2,h3,h4{margin:0px; padding:0px;}
+
+img{
+border:0px;
+}
+
+img, fieldset {
+	border: 0;
+}
+
+.clearfix{clear:both}
+
+/* Header Area CSS */
+.login_user_name{position:absolute; z-index:1000; width:200px; text-align:right; margin-left:200px; border-right:1px solid #fff; padding-right:13px;}
+.header_area{width:100%; height:117px; background:url(../images/header_bg.jpg) top left repeat-x; position:fixed; top:0; left:0; z-index:1000;}
+.header_main_area{width:978px; height:117px; margin:auto;}
+.logo_area{width:221px; height:117px; float:left; padding-left:16px; margin-right:81px;}
+.tab_area{width:660px; height:117px; float:right;}
+.toptab_area{ width:660px; height:34px; text-align:right; font-family:webfontregular; font-size:17px; color:#fff; padding-top:25px;}
+.toptab_area ul{margin:0px; list-style-type:none; display:inline;}
+.toptab_area ul li{display:inline; padding:0px 8px 0px 8px;}
+.toptab_area ul li a{color:#fff; text-decoration:none;}
+.toptab_area ul li a:hover{color:#95c32d; text-decoration:none;}
+.bottomtab_area{width:660px; height:58px;}
+.main_tab_area{ width:327px; height:58px; float:left; font-family:webfontregular; font-size:23px; color:#fff;}
+.signup_area{ width:105px; height:33px; float:left; margin-right:19px; background:#95c32d; border-radius: 15px; font-family:webfontregular; font-size:23px; color:#fff; text-align:center; padding-top:3px;}
+.signup_area a{ text-decoration:none; color:#fff;}
+.signup_area a:hover{ text-decoration:none; color:#fff;}
+
+.signup_area1{ width:105px; height:33px; float:left; margin-right:19px;  font-family:webfontregular; font-size:23px; color:#fff; text-align:center; padding-top:3px;}
+.search_area{width:205px; height:36px; float:left; background:#e8e6da; border-radius: 15px; }
+.search_fill{ width:168px; height:36px; float:left;}
+.search_button{ width:37px; height:36px; float:left;}
+.search_input{ border:none; background:transparent; width:145px; padding-left:15px; padding-top:8px; color:#7c7c7c; font-family:webfontregular; font-size:17px; outline:none;}
+
+.main_tab_area ul{margin:0px; list-style-type:none; display:inline;}
+.main_tab_area ul li{ display:inline; padding-right:30px;}
+.main_tab_area ul li a{color:#fff; text-decoration:none;}
+.main_tab_area ul li a:hover{color:#95c32d; text-decoration:none;}
+
+/* End Header Area CSS */
+
+/* Body Area CSS */
+.body_space{ padding-top:117px;}
+.body_area{width:100%; max-width:20000px; min-width:1200px; height:1138px; background:url(../images/body_bg.jpg) top left repeat-x; margin-top:117px;}
+.body_main_area{width:1200px; height:auto; margin:auto;}
+.header_animated_area{ width:1200px; height:666px;}
+.videoplaylist_area{ width:1200px; height:471px; margin:auto;}
+
+/* First Slide */
+.first_slide{ width:1200px; height:666px;}
+.first_slide_left{ width:170px; height:666px; float:left;}
+.first_slide_center{ width:591px; height:610px; float:left; margin-top:35px; background:url(../images/video_area.jpg) top left no-repeat; padding:21px 22px 0px 22px;}
+.first_slide_right{ width:372px; height:631px; float:left; margin-top:35px; padding-left:23px;}
+.first_slide_right h1{color:#037ea0; font-family:webfontregular; font-size:65px;}
+.first_slide_right h2{color:#037ea0; font-family:webfontregular; font-size:36px; font-weight:bold; line-height:35px;}
+.first_slide_right h3{color:#037ea0; font:normal 15px Tahoma; color:#585858; line-height:25px; font-weight:bold; padding-right:160px; padding-top:10px;}
+
+
+/* 2nd Slide */
+.second_slide{ width:1200px; height:666px;}
+.second_slide_image{ background:url(../images/second_slide.png) top left no-repeat; width:1200px; height:666px;}
+.second_slide_left_area{ width:335px; height:auto; float:left; margin-left:51px;}
+.second_slide_center_content{width:646px; height:auto; float:left;}
+.second_slide_right_bar{width:168px; height:auto; float:left;}
+.second_slide_center_content h1 { font-family:webfontregular; font-size:42px; color:#037ea0; font-weight:900; padding-top:76px; padding-bottom:10px;}
+.second_slide_center_content h2{font-family:Tahoma; color:#585858; line-height:25px; font-size:16px; padding-bottom:18px;}
+.signup_main_area{ width:610px; height:auto; margin:0px 22px 0px 14px;}
+.signup_main_left_area{ width:309px; height:auto; float:left; margin-right:8px;}
+.signup_main_right_area{ width:293px; height:auto; float:left;}
+.input_area{ height:48px; width:309px;}
+.input_area_border{ background:#ffffff; border:1px solid #dddddd; border-width:1px; width:297px; height:46px; border-radius: 8px; padding-left:10px; color:#7d7d7d; font-family:webfontregular; font-size:16px; outline:none;}
+.inputspace_area{ padding-bottom:16px;}
+.signup_button_area{ width:262px; height:auto; float:left;}
+.signup_text_area{ height:auto; float:left; color:#037ea0; font-family:webfontregular; font-size:23px; padding-top:15px;}
+.inputspace_area1{ margin-top:17px;}
+.signup_text_area a{color:#037ea0; text-decoration:none;}
+.signup_text_area a:hover{color:#037ea0; text-decoration:none;}
+.yoga_floor_area{ width:624px; height:auto; margin:0px 22px 0px 0px;}
+.secondslide_floor{ padding-top:197px;}
+
+/* 3rd Slide */
+.third_slide{ width:1200px; height:666px;}
+.third_left_bar{ width:533px; height:auto; float:left; margin-left:143px;}
+.third_right_bar{ width:524px; height:auto; float:left;}
+.third_left_bar h1{font-family:webfontregular; font-size:38px; color:#037ea0; font-weight:900; letter-spacing:-1px; padding-top:50px;}
+.third_left_bar h2{font-family:Tahoma; color:#585858; line-height:25px; font-size:16px;}
+.third_picture_area{ height:209px; width:533px; margin-top:15px;}
+.third_mat_area{ padding-top:197px; padding-left:450px;}
+
+/* 4th Slide */
+.forth_slide{ width:1200px; height:666px;}
+.forth_left_bar{width:328px; height:auto; margin-left:110px; float:left;}
+.forth_center_bar{width:576px; height:auto; margin-left:74px; float:left;}
+.forth_right_bar{width:112px; height:auto; float:left;}
+.forth_center_bar h1{font-family:webfontregular; font-size:24px; color:#333333; padding-top:83px; letter-spacing:-1px; }
+.forth_center_bar h2{font-family:webfontregular; font-size:34px; color:#0079a0; }
+.forth_center_bar h3{font-family:webfontregular; font-size:15px; color:#6c6c6c; letter-spacing:-1px; padding-top:10px; }
+.fourth_signup_main_area{width:576px; height:auto; margin-top:54px;}
+
+
+
+
+
+
+/* Video Playlist Area */
+.videoplaylistmain_area{ width:989px; height:auto; margin:auto;}
+.top_space {
+	margin-top:93px;
+}
+
+
+/* Playlist Tab CSS */
+
+#tabs_wrapper {
+	width: 978px;
+	margin-left:5px;
+}
+#tabs {
+	list-style: none;
+	padding: 10px 0 12px 0;
+	font-family:webfontregular;
+	color:#fff;
+	font-size:27px;
+}
+#tabs li {
+	display: inline;
+}
+#tabs li a {
+	text-decoration: none;
+	background-color: #05779b;
+	outline: none;
+	border-radius: 5px 5px 0 0;
+	-moz-border-radius: 5px 5px 0 0;
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+	padding: 12px 15px 12px 15px;
+	font-family:webfontregular;
+	color:#fff;
+	font-size:27px;
+
+}
+#tabs li a:hover {
+	background-color: #fff;
+	padding: 12px 15px;
+	font-family:webfontregular;
+	color:#07799c;
+	font-size:27px;
+}
+#tabs li.active a {
+	background-color: #fff;
+	padding: 12px 15px 12px 15px;
+	font-family:webfontregular;
+	color:#07799c;
+	font-size:27px;
+}
+#tabs li.active a:hover {
+	background-color: #05779a;
+	padding: 12px 15px 12px 15px;
+	font-family:webfontregular;
+	color:#fff;
+	font-size:27px;
+}
+#tabs_content_container {
+	width: 904px;
+	height:324px;
+	padding-left:37px;
+	padding-right:37px;
+	background:url(../images/playlistarea_bg.jpg) top left repeat-x;
+}
+.tab_content {
+	display: none;
+	
+}
+
+
+
+/* End Playlist Tab CSS */
+
+.slides {
+	width:893px;
+	height:284px;
+	margin:auto;
+	padding-top:40px;
+}
+
+.video_thumb {
+	width:184px;
+	height:235px;
+	border:1px solid #e0e0e0;
+	border-width:1px;
+	padding:6px 8px 0px 9px;
+	float:left;
+}
+.small_video_area {
+	width:184px;
+	height:121px;
+	margin-bottom:15px;
+}
+
+
+.small_video_blureffect{
+	width:184px;
+	height:121px;
+	position:absolute;
+	z-index:1000;
+	background:#000;
+	opacity:0.6;
+  	filter:alpha(opacity=60); /* For IE8 and earlier */
+	display:none;
+	
+}
+
+.watch_video{ color:#fff; font-size:14px; text-align:center; padding-top:50px;}
+.watch_video a{color:#fff; text-decoration:none;}
+.watch_video a:hover{color:#fff; text-decoration:none;}
+
+
+.video_content {
+	width:184px;
+	height:89px;
+}
+.space_right {
+	margin-right:20px;
+}
+.left_arrow {
+	position:absolute;
+	z-index:100;
+	width:35px;
+	height:70px;
+	padding-top:165px;
+}
+.right_arrow {
+	position:absolute;
+	z-index:100;
+	width:35px;
+	height:70px;
+	padding-top:165px;
+	margin-left:954px;
+}
+
+
+/*For Left and right Scroll TAB Area CSS */
+
+.list_carousel {
+	width: 893px;
+	height:243px;
+	margin-left:10px;
+}
+.list_carousel ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: block;
+}
+.list_carousel li {
+	width:184px;
+	height:235px;
+	border:1px solid #e0e0e0;
+	border-width:1px;
+	padding:6px 8px 0px 9px;
+	display: block;
+	float: left;
+}
+.list_carousel.responsive {
+	width: auto;
+	margin-left: 0;
+}
+.clearfix {
+	float: none;
+	clear: both;
+}
+
+
+/* Yoga Starter */
+
+.yoga_starter{
+	width:163px;
+	height:20px;
+	padding-left:9px;
+	color:#087a9d; font-family:webfontregular; font-size:15px; font-weight:bold;
+	padding-bottom:5px;
+}
+
+.yoga_starter a{color:#087a9d; text-decoration:none;}
+.yoga_starter a:hover{color:#7fb624; text-decoration:none;}
+
+.rating_area{
+	width:172px;
+	padding-left:12px;
+	height:auto;
+}
+
+.overall_area_new{
+	width:172px;
+	height:auto;
+	padding-top:4px;
+}
+.overall_space{ margin-top:2px;}
+
+
+.overall_area_left_col{width:72px; color:#87888a; font-family:Tahoma; font-weight:bold; font-size:11px; float:left;}
+.overall_area_right_col{width:100px; color:#87888a; font-family:Tahoma; font-size:11px; float:left;}
+
+
+
+
+/* Play List Area */
+.playlist_area{ width:100%; height:122px; background:#05779a; max-width:20000px; min-width:1200px;}
+.playlist_area_center{ width:1200px; height:auto; margin:auto;}
+.main_playlist_area{ width:989px; height:auto; margin:auto;}
+.playlist_left_arrow{ width:35px; height:auto; float:left; padding-top:12px;}
+.playlist_center{ width:919px; height:auto; float:left; margin-top:16px;}
+.playlist_right_arrow{ width:35px; height:auto; float:left; padding-top:12px;}
+.dropvideo_area{ width:136px; height:89px; border:1px dotted #13aec6; border-width:1px; float:left; font-family:webfontregular; color:#89e1fc; font-size:17px; text-transform:uppercase; vertical-align:middle; text-align:center;}
+.text_top_space{ padding-top:25px;}
+.break_area{ width:138px; height:66px; background:#00466f; float:left; font-family:webfontregular; color:#89e1fc; font-size:17px; text-transform:uppercase; vertical-align:middle; text-align:center; padding-top:25px;}
+.drop_video{ width:138px; height:91px; float:left;}
+.drop_video_rating{ width:138px; height:91px; float:left; background:url(../images/rating_bg.jpg) top left no-repeat;}
+
+.drop_video_rating h1{font-family:webfontregular; color:#fff; font-size:17px; font-weight:100; padding:15px 0px 0px 14px;}
+.drop_video_rating h2{font-family:webfontregular; color:#87888a; font-size:13px; font-weight:100; padding:5px 0px 0px 14px;}
+
+.yogastarter_area{ width:116px; height:auto; margin:4px 8px 0px 14px;}
+.overall_area{width:116px; height:auto; margin-bottom:6px;}
+.overall_text{ width:65px; height:auto; float:left; font-family:webfontregular; color:#87888a; font-size:13px; font-weight:100; text-align:left;}
+.overall_rating{ width:51px; height:auto; float:left;}
+.overall_rating_space{ padding-top:3px;}
+.intencity_icon{ float:left; padding-right:5px; padding-top:2px;}
+.star_icon{ float:left; padding-top:2px; padding-right:1px;}
+.complexity_icon{ float:left; padding-top:0px; padding-right:1px;}
+
+.drop_space{ margin-left:7px;}
+.drop_space1{ margin-left:14px;}
+.drop_space2{ margin-left:17px;}
+.drop_space3{ margin-left:17px; margin-right:7px;}
+
+
+
+/* Footer Area */
+.footer_area{ width:100%; max-width:20000px; min-width:1200px; height:82px; background:#00385d; /*position:fixed; bottom:0px;*/}
+.footer_main_area{ width:989px; height:65px; margin:auto; padding-top:17px;}
+.workout_area{ width:209px; height:34px; border:1px dotted #05779a; border-width:1px; float:left; font-family:webfontregular; color:#037ea0; font-size:20px; font-weight:400; padding:13px 0px 0px 14px; }
+.workspace{ margin-left:15px;}
+.work_length{ width:180px; height:auto; float:right; padding-top:5px;}
+.work_length h1{font-family:webfontregular; color:#037ea0; font-size:12px; font-weight:600; text-transform:uppercase;}
+.work_length h2{font-family:webfontregular; color:#fff; font-size:21px; font-weight:300}
+
+
+
+
+
+/* Video Landing Page Area */
+
+.video_landing_area{width:890px; height:auto; margin:0px 155px 0px 155px;}
+.video_landing_heading{font-family:webfontregular; color:#0079a0; font-size:49px; font-weight:bold; text-align:center; padding-top:76px; padding-bottom:41px;}
+.video_box_area{ width:890px; height:auto;}
+.fistbox{ width:269px; height:100px; float:left; background:#037ea0; border-radius:10px; font-family:webfontregular; color:#fff; font-size:32px; font-weight:bold; text-align:center; padding-top:51px;}
+.box_space{ margin-right:41px;}
+
+.fistbox a{ color:#fff; text-decoration:none;}
+.fistbox a:hover{ color:#95c32d; text-decoration:none;}
+
+
+/* Just the Video Page Area */
+.bigvideo_body_area{width:100%; height:792px; background:url(../images/body_bg.jpg) top left repeat-x; margin-top:117px;}
+.big_video_area{ padding:35px 0px 0px 283px;}
+.big_video{width:591px; height:369px; background:url(../images/video_area.jpg) top left no-repeat; padding:21px 22px 0px 22px;}
+.big_video_space{ margin:30px 0px 0px 0px;}
+.bigvideo_top_space {
+	margin-top:43px;
+}
+
+
+/* Chat Area CSS */
+
+
+.chat_area{width:276px; height:310px; z-index:1000; right:-230px; bottom:0px; position:fixed;  border:0px solid #00FF33}
+.chat_icon{width:47px; height:49px; float:left; background:#05779b;}
+.chat_icon_text{width:219px; height:39px; float:left; background:#05779b; font-family:webfontregular; color:#fff; font-size:22px; font-weight:bold; padding-top:10px; text-align:left; padding-left:10px;}
+
+.chat_body{width:222px; height:304px; z-index:1000; right:0px; bottom:0px; position:fixed;  border:3px solid #05779b; border-width:3px;; display:none}
+.chat_box_area{width:100%; height:240px; float:left;  background:#FFFFFF; }
+.chat_search_area{width:100%; height:63px; float:left;  background:#FFFFFF;}
+.chat_search_area_message{height:15px; font-size:12px; color:#CC6600}
+
+.chat_window{width:276px; bottom:0px; height:251px;}
+.chat_icon_area{width:47px; height:255px; float:left;}
+
+
+
+.chatlist_area{ width:250px; height:193px;}
+.search_friend_result{ width:265px; height:160px; display:none}
+
+.chat_search{ width:250px; height:53px;}
+.search_box_area{ width:153px; height:37px; float:left; border:1px solid #bdbdbd; border-width:1px; border-radius: 15px; margin-left:5px;}
+.new_request{ width:21px; height:22px; margin-top:5px; margin-left:5px; float:left; background:url(../images/new_request.png); display:none; color:#fff; padding-top:3px; font-family:Tahoma; font-size:10px; text-align:center; font-weight:bold; cursor:pointer}
+.invite_friend{ width:24px; height:25px; float:left; background:url(../images/send_request.png); cursor:pointer; margin-left:5px; margin-top:5px;}
+
+.chat_search_fill{width:116px; height:31px; float:left;}
+.chat_search_btn{ width:37px; height:31px; float:left; margin-top:3px;}
+.chat_text_input{ border:none; width:100px; margin-left:10px; margin-top:10px; color:#939393; font-family:arial;}
+
+.chatlist_name{ width:221px; height:29px; border-bottom:1px solid #e0e0e0;}
+
+.chat_online_area{ width:9px; height:19px; margin-left:9px;  float:left;  padding-top:11px;}
+.chat_online_name{ width:180px; height:25px;margin-left:9px;  float:left; padding-top:4px; font-weight:bold;}
+.chat_search_name{ width:160px; height:25px;margin-left:9px;  float:left; padding-top:4px; font-weight:bold;}
+
+.chat_request_name{ width:100px; height:25px; margin-left:9px;  float:left; padding-top:4px; font-weight:bold;}
+.chat_request_action{ width:100px; height:25px; margin-left:9px;  float:left; padding-top:4px; font-weight:bold;}
+
+.chat_invite_area{ width:27px; height:25px; float:left; padding-top:2px; font-weight:bold; padding-right:9px;}
+
+.chat_online_name a{ text-decoration:none; color:#000; }
+.chat_online_name a:hover{ text-decoration:none; color:#000; }
+
+
+/* Chat Editing CSS */
+.chat_icon_space{padding-left:30px;}
+.chat_overflow_area{width:220px; height:215px; overflow: auto; overflow-x: hidden;}
+.chat_search_name1{ width:221px; height:25px; float:left; font-weight:bold;}
+
+/* Chat Area Drop Down */
+
+
+/*------------------------------------*\
+	RESET
+\*------------------------------------*/
+div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote{
+	margin:0;
+	padding:0;
+}
+
+/*------------------------------------*\
+	NAV
+\*------------------------------------*/
+
+
+#nav{
+	list-style:none;
+	margin-bottom:10px;
+	/* Clear floats */
+	float:left;
+	width:100%;
+	/* Bring the nav above everything else--uncomment if needed.
+	position:relative;
+	z-index:5;
+	*/
+	font-size:11px;
+	font-family:Tahoma;
+	
+}
+#nav li{
+	float:left;
+	position:relative;
+}
+
+
+#nav a{
+	display:block;
+	padding:5px 10px 5px 5px;
+	color:#000;
+	text-decoration:none;
+}
+
+#nav a:hover{
+	color:#000;
+	text-decoration:underline;
+}
+
+
+/*--- DROPDOWN ---*/
+#nav ul{
+	background:#fff; /* Adding a background makes the dropdown work properly in IE7+. Make this as close to your page's background as possible (i.e. white page == white background). */
+	list-style:none;
+	position:absolute;
+	left:-9999px; /* Hide off-screen when not needed (this is more accessible than display:none;) */
+}
+#nav ul li{
+	float:none;
+}
+#nav ul a{
+	white-space:nowrap; /* Stop text wrapping and creating multi-line dropdown items */
+}
+#nav li:hover ul{ /* Display the dropdown on hover */
+	left:0; /* Bring back on-screen when needed */
+}
+#nav li:hover a{ /* These create persistent hover states, meaning the top-most link stays 'hovered' even when your cursor has moved down the list. */
+	text-decoration:underline;
+}
+#nav li:hover ul a{ /* The persistent hover state does however create a global style for links even before they're hovered. Here we undo these effects. */
+	text-decoration:none;
+}
+#nav li:hover ul li a:hover{ /* Here we define the most explicit hover states--what happens when you hover each individual link. */
+background:#fff;
+}
+.chat_chat_border{border:1px solid #e0e0e0; border-width:1px 1px 0px 1px;}
+.chat_chat_border1{border:1px solid #e0e0e0; border-width:1px 1px 1px 1px;}
+
+
+/* With A Friend Area */
+.friend_body_area{width:100%; height:1257px; background:url(../images/body_bg.jpg) top left repeat-x; margin-top:117px;}
+.mirror_body_area{width:100%; height:1048px; background:url(../images/body_bg.jpg) top left repeat-x; margin-top:117px;}
+.more_video_area{ width:1200px; height:auto;}
+.morevideo_morea_area{ width:933px; height:auto; margin:auto;}
+.friend_video{ width:413px; height:220px; background:url(../images/friend_video.png) top left no-repeat; float:left; padding:16px 19px 20px 19px;}
+.morevideo_morea_area h1{font-family:webfontregular; color:#fff; font-size:32px; font-weight:bold; padding-top:10px; padding-bottom:10px;}
+.online_user{ width:40px; height:auto; padding-top:10px; float:left; margin-left:10px;}
+.online_user_name{font-family:arial; color:#fff; font-size:12px; font-weight:bold; text-align:center; padding-top:5px;}
+.online_user_name a{ text-decoration:none; color:#fff;}
+.online_user_name a:hover{ text-decoration:none; color:#fff;}
+.invite_friend_area{ height:130px; background:#FFFFFF; width:928px; margin-left:110px; overflow:auto; padding:10px 10px 10px 50px;}
+.online_user_area{ width:300px; float:left; height:auto; margin-top:10px;}
+.online_user_area_left{ width:40px; height:auto; float:left;}
+.online_user_area_right{ width:260px; height:auto; float:left; padding-top:7px;}
+.online_user_area_right a{ text-decoration:none; color:#000000;}
+.online_user_area_right a:hover{ text-decoration:none; color:#000000;}
+
+
+
+/* SignUp Area */
+
+.signup_body_area{width:100%; max-width:20000px; min-width:1200px; height:auto; background:url(../images/signup_bg.jpg) #fff top left repeat-x; margin-top:117px; min-height:500px;}
+.signup_main_area_center{ width:978px; height:auto; margin:0px 112px 0px 110px;}
+
+/* First Step */
+.first_step{width:978px; height:auto;}
+.2nd_step{width:978px; height:auto;}
+.signup_heading{font-family:webfontregular; color:#037ea0; font-size:37px; font-weight:bold; text-align:center; padding-top:40px;}
+.signup_center{ width:643px; height:auto; margin:auto;}
+.next_btn{ padding-right:20px; padding-top:20px;}
+.step_one{ height:55px; padding-right:130px;}
+
+/* New Signup Page  */
+.signup_page_area{width:940px; height:auto; margin:auto;}
+.signup_heading2{font-family:webfontregular; color:#037ea0; font-size:37px; font-weight:bold; text-align:center; padding-top:20px;}
+.step_one1{ height:55px;}
+.signup_form_area{ width:940px; height:auto; margin-top:18px;}
+.signup_leftbar{ width:270px; height:auto; float:left;}
+.signup_rightbar{ width:670px; height:auto; float:left;}
+.f_m_area{ width:670px; height:auto;}
+/*.face_area{ width:202px; height:auto; float:left; margin:28px 39px 0px 40px;}*/
+.face_area{ width:271px; height:auto; float:left; margin:28px 0px 0px 10px;}
+.or_area{ width:25px; height:216px; float:left; background:url(../images/or_bg.png) top left no-repeat; margin-left:10px; margin-right:10px;}
+.form_area{ width:309px; height:auto; float:left; margin:10px 19px 0px 16px;}
+.facebook_button{ width:258px; height:47px; margin-bottom:12px;}
+.googleplus_button{ width:258px; height:47px; margin-bottom:15px;}
+.social_text{ font-family:Tahoma; font-size:13px; color:#999999; line-height:18px;}
+.new_inputspace_area{ padding-bottom:6px;}
+.signup_btn{padding-top:20px;}
+.signup_heading3{font-family:webfontregular; color:#037ea0; font-size:37px; font-weight:bold; text-align:center; padding-top:10px;}
+.signup_next_btn{padding-top:20px;}
+
+
+
+/* Next Step */
+.signup_center1{ width:643px; height:auto; margin-left:230px; margin-top:10px;}
+.next_heading{font-family:webfontregular; color:#037ea0; font-size:24px;}
+.signup_heading1{font-family:webfontregular; color:#037ea0; font-size:20px; font-weight:bold; text-align:center;}
+.signup_main_form_area{ width:643px; height:auto;}
+.signup_main_form_area_left{ width:250px; height:auto; float:left;}
+.select_area{ width:250px; padding:5px 0px 5px 0px; border:1px solid #dddddd; border-width:1px; height:38px; color:#7d7d7d; font-family:webfontregular; font-size:16px; outline:none; }
+
+.city_fill1{ background:#ffffff; border:1px solid #dddddd; border-width:1px; width:190px; height:36px; padding-left:10px; color:#7d7d7d; font-family:webfontregular; font-size:16px; outline:none; float:left; margin-right:10px;}
+
+.input_area_border1{ background:#ffffff; border:1px solid #dddddd; border-width:1px; width:297px; height:36px; padding-left:10px; color:#7d7d7d; font-family:webfontregular; font-size:16px; outline:none;}
+
+.signup_input_area_border{ background:#ffffff; border:1px solid #dddddd; border-width:1px; width:200px; padding-top:8px; padding-bottom:8px; padding-left:10px; color:#7d7d7d; font-family:webfontregular; font-size:16px; outline:none;}
+
+
+.month_area{ width:150px; padding:5px 0px 5px 0px; border:1px solid #dddddd; border-width:1px; height:38px; color:#7d7d7d; font-family:webfontregular; font-size:16px; outline:none; }
+
+.card_number_fill1{ background:#ffffff; border:1px solid #dddddd; border-width:1px; width:300px; height:36px; padding-left:10px; color:#7d7d7d; font-family:webfontregular; font-size:16px; outline:none; float:left; margin-right:10px;}
+
+.terms_conditions{ color:#7d7d7d; font-family:webfontregular; font-size:16px; float:left; margin-right:10px;}
+.terms_conditions a{color:#7d7d7d; text-decoration:underline}
+.terms_conditions a:hover{color:#7d7d7d; text-decoration:none}
+.signup_col{float:left; margin-right:10px;}
+
+.inputspace_area2{ padding-bottom:7px;}
+
+.next_btn1{ padding-right:20px; padding-top:10px;}
+
+
+/* New Landing Page */
+
+.body_landing_video{width:100%; max-width:20000px; min-width:1200px; height:auto; background:url(../images/landing-bg.jpg) top left repeat-x; margin-top:117px; min-height:422px;}
+.body_main_area{width:1200px; height:auto; margin:auto;}
+.big_landing_video_area{width:700px; height:auto; float:left; margin:10px 18px 23px 31px;}
+.small_landing_video_area{width:420px; height:auto; float:left; margin:10px 31px 23px 0px;}
+.big_video_border{width:684px; height:585px; border:8px solid #c7c7c7; border-width:8px; background:#ffffff;}
+.small_video_area1{width:404px; height:275px; border:8px solid #c7c7c7; border-width:8px; background:#ffffff;}
+.small_video_space{ margin-bottom:19px;}
+
+.video_play_list{width:700px; height:auto; float:left; margin:0px 18px 23px 250px;}
+.big_video_playlist{width:684px; height:585px; border:8px solid #c7c7c7; border-width:8px; background:#ffffff; margin-top:10px;}
+
+
+/* New Chat CSS */
+.invite_google_area{width:204px; height:auto; margin-left:9px; margin-top:9px;}
+.invite_google_icon{float:left; width:44px;}
+.invite_google{float:left; width:150px; padding-left:10px; padding-top:10px; font-family:Tahoma; font-size:13px; color:#037ea0;}
+.invite_google a{ color:#037ea0; text-decoration:none;}
+.invite_google a:hover{ color:#037ea0; text-decoration:none;}
+
+/*-------LOGIN STARTS HERE -------*/
+
+
+/* Login Container (default to float:right) */
+#loginContainer {
+    position:relative;
+    float:right;
+}
+
+/* Login Button */
+#loginButton { 
+    display:inline-block;
+    float:right;
+    border-radius:6px;
+    -moz-border-radius:6px;
+    position:relative;
+    z-index:30;
+    cursor:pointer;
+	 background:url(../images/buttonbg.png) repeat-x;
+	 padding-bottom:2px;
+	 border:1px solid #068eb4;
+	 border-width:1px;
+	 
+}
+
+/* Login Button Text */
+#loginButton span {
+    padding:0px 29px 0px 10px;
+    background:url(../images/loginArrow.png) no-repeat 53px 3px;
+    display:block
+}
+
+#loginButton:hover {
+    background:url(../images/buttonbgHover.png) repeat-x;
+}
+
+/* Login Box */
+#loginBox {
+    position:absolute;
+    top:24px;
+    right:0px;
+    display:none;
+    z-index:29;
+}
+
+/* If the Login Button has been clicked */    
+#loginButton.active {
+    border-radius:6px 6px 0 0;
+}
+
+#loginButton.active span {
+    background-position:53px -80px;
+}
+
+/* A Line added to overlap the border */
+#loginButton.active em {
+    position:absolute;
+    width:100%;
+    height:1px;
+   
+    bottom:-1px;
+}
+
+/* Login Form */
+#loginForm {
+    width:248px; 
+    border:1px solid #069bc4;
+    border-radius:6px 0 6px 6px;
+    -moz-border-radius:3px 0 6px 6px;
+    margin-top:-1px;
+    background:#037ea0;
+    padding:6px;
+}
+
+#loginForm fieldset {
+    margin:0 0 12px 0;
+    display:block;
+    border:0;
+    padding:0;
+}
+
+fieldset#body {
+    background:#fff;
+    border-radius:6px;
+    -moz-border-radius:6px;
+    padding:10px 13px;
+    margin:0;
+}
+
+#loginForm #checkbox {
+    width:auto;
+    margin:1px 9px 0 0;
+    float:left;
+    padding:0;
+    border:0;
+    *margin:-3px 9px 0 0; /* IE7 Fix */
+}
+
+#body label {
+    color:#3a454d;
+    margin:9px 0 0 0;
+    display:block;
+    float:left;
+}
+
+#loginForm #body fieldset label {
+    display:block;
+    float:none;
+    margin:0 0 6px 0;
+}
+
+/* Default Input */
+#loginForm input {
+    width:92%;
+    border:1px solid #007ea4;
+    border-radius:3px;
+    -moz-border-radius:3px;
+    color:#3a454d;
+    padding:8px 8px;
+    box-shadow:inset 0px 1px 3px #bbb;
+    -webkit-box-shadow:inset 0px 1px 3px #bbb;
+    -moz-box-shadow:inset 0px 1px 3px #bbb;
+    font-size:12px;
+}
+
+/* Sign In Button */
+#loginForm #login {
+    width:auto;
+    float:left;
+    background:#95c32d;
+    padding:3px 10px 3px 10px;
+    border:1px solid #7aa813;
+    -moz-box-shadow:none;
+    -webkit-box-shadow:none;
+    margin:0 12px 0 0;
+    cursor:pointer;
+    *padding:7px 2px 8px 2px; /* IE7 Fix */
+	color:#fff;
+	font-family:webfontregular; font-size:22px;
+	font-weight:bold;
+	border-radius: 15px 15px 15px 15px;
+}
+
+/* Forgot your password */
+#loginForm span {
+    text-align:center;
+    display:block;
+    padding:7px 0 4px 0;
+}
+
+#loginForm span a {
+    color:#3a454d;
+    text-shadow:1px 1px #fff;
+    font-size:12px;
+}
+
+input:focus {
+    outline:none;
+}
+
+.forgot_password{text-align:left; color:#fff; font-family:Tahoma; font-size:12px;} 
+.forgot_password a{text-align:left; color:#fff; font-family:Tahoma; font-size:12px;}
+.forgot_password a:hover{text-align:center; color:#fff; font-family:Tahoma; font-size:12px;}
+
+/* Footer Button CSS */
+
+.cancel_button{ width:80px; margin-top:10px; margin-left:10px; float:left; height:26px; float:left; margin-right:10px; background:#95c32d; border-radius: 15px; font-family:webfontregular; font-size:18px; color:#fff; text-align:center; padding-top:3px;}
+.saveplay_button{ margin-left:10px; margin-top:10px; width:124px; float:left; height:26px; float:left; margin-right:10px; background:#95c32d; border-radius: 15px; font-family:webfontregular; font-size:18px; color:#fff; text-align:center; padding-top:3px;}
+
+.cancel_button a{ text-decoration:none; color:#fff;}
+.cancel_button a:hover{ text-decoration:none; color:#fff;}
+.saveplay_button a{ text-decoration:none; color:#fff;}
+.saveplay_button a:hover{ text-decoration:none; color:#fff;}
+
+/* Mouseover Show Button */
+.over_cross{z-index:100; position:absolute; width:19px; height:17px; margin-left:117px; padding-top:3px; display:none;}
+.over_cross_remove{z-index:100; position:absolute; width:19px; height:17px; margin-left:162px; padding-top:3px; display:none;}
+
+
+/* AutoShow Header */
+.body_landing_page_video_area{width:100%;  height:auto; background:url(../images/landing-bg.jpg) top left repeat-x; min-height:422px;}
+.video_landing_page_header_area{width:100%; height:117px; background:url(../images/header_bg.jpg) top left repeat-x; display:none;}
+.big_landing_video_area1{width:700px; height:auto; float:left; margin:10px 18px 23px 31px;}
+.small_landing_video_area1{width:420px; height:auto; float:left; margin:10px 31px 23px 0px;}
+.show_strip{ width:100%; height:28px;}
+.strip_bar{ width:100%; height:7px; background:#037598;}
+.drop_arrow{text-align:center; background:url(../images/drop_arrow.png) top center no-repeat; height:21px; width:54px; margin:auto; cursor:pointer;}
+.up_arrow{text-align:center; background:url(../images/up_arrow.png) top center no-repeat; height:21px; width:54px; margin:auto; cursor:pointer;}
+
+
+/*Gmail Invite Area */
+.gmail_box_area{ width:670px; height:300px; overflow:auto; overflow-x: hidden}
+.gmail_friend_area{ width:670px; height:auto; margin-top:15px;}
+.gmail_friend_name_area{ float:left; padding:0px 5px 0px 5px; font-family:Tahoma; font-size:14px; font-weight:bold; color:#7d7d7d; }
+
+.send_request{ width:150px; height:33px; margin-top:20px; float:left; margin-right:19px; background:#95c32d; border-radius: 15px; font-family:webfontregular; font-size:23px; color:#fff; text-align:center; padding-top:3px;}
+.send_request a{ text-decoration:none; color:#fff;}
+.send_request a:hover{ text-decoration:none; color:#fff;}
+
+/* Add Contact */
+.input_border{ border:1px solid #dddddd; border-width:1px; background:#FFFFFF; padding:7px 0px 7px 10px; width:207px;}
+.gmail_friend_space{ padding-top:7px;}
+.add_contact{ padding-left:260px; padding-bottom:10px;}
+
+/* New CSS For Signup Page */
+.already_member{ font-family:Tahoma; font-size:13px; color:#999999; line-height:18px; float:left; padding-top:8px;}
+.already_member a{color:#999999; text-decoration:none;}
+.already_member a:hover{color:#037ea0; text-decoration:none;}
+
+.country_area{ width:190px; float:left; padding:5px 0px 5px 0px; border:1px solid #dddddd; border-width:1px; height:38px; color:#7d7d7d; font-family:webfontregular; font-size:16px; outline:none; margin-right:10px; }
+.phone_area{ background:#ffffff; border:1px solid #dddddd; border-width:1px; width:202px; height:36px; padding-left:10px; color:#7d7d7d; font-family:webfontregular; font-size:16px; outline:none; float:left; margin-right:10px;}

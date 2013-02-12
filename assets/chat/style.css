@@ -1,0 +1,378 @@
+body{ font-family:Arial; font-size:12px; line-height:14px; color:#000000}
+.hmenu{color:#FFFFFF; font-weight:bold; padding-left:15px; padding-right:15px; text-decoration:none}
+.hmenu:hover{color:#FF3300; font-weight:bold; text-decoration:none}
+.lmenu{color:#666666; text-decoration:none; font-size:11px;}
+.lmenu:hover{color:#666666; font-size:11px;text-decoration:underline;}
+
+.oth_search{display:block; text-align:left; white-space:nowrap; width:130px;color:#666666; text-decoration:none; font-size:11px;}
+.oth_search:hover{color:#666666; font-size:11px;text-decoration:underline;}
+
+.flink{color:#ffffff; text-decoration:none; font-size:11px;}
+.flink:hover{color:#ffffff; font-size:11px;text-decoration:underline}
+.link1{color:#333333; text-decoration:none;font-size:11px;}
+.link1:hover{color:#333333; text-decoration:underline;font-size:11px;}
+.text1{ font-family:Arial, Helvetica, sans-serif; letter-spacing:2px; font-size:13px; font-weight:bold; padding-left:15px; font-variant: small-caps;}
+.text2{color:#FF0000; font-weight:bold;}
+.text3{color:#000000;font-size:12px; }
+.text4{color:#ffffff; font-size:12px;padding-left:10px;}
+.line{ background:url(images/i3.jpg) center repeat-x;height:5px;}
+td{font-family:Verdana; font-size:11px; line-height:14px; color:#333333}
+.line{ background:url(images/i3.jpg) center repeat-x;height:5px;}
+.bdtext
+{
+	 font-family:Arial; font-size:12px; color:#666666; margin-top:10px; text-align:justify;
+}
+.bdtext1
+{
+	 font-family:Arial; font-size:12px; color:#000000; margin-top:10px; text-align:justify;
+}
+.cap1
+{
+font-family:Georgia; font-size:20px; color:#e10000;text-align:left;
+}
+.cap1_b
+{
+font-family:Verdana; font-size:12px; color:#000000;text-align:left; font-weight:bold;
+}
+.cap2
+{
+font-family:Arial; font-size:12px; color:#525050; font-weight:bold; text-align:left; text-decoration:none;
+}
+.cap2:hover
+{
+font-family:Arial; font-size:12px; color:#525050; font-weight:bold; text-align:left; text-decoration:underline;
+}
+
+
+
+.cap3
+{
+font-family:Georgia; font-size:15px; font-weight:bold; color:#333333;text-align:left;
+}
+.cap4
+{
+font-family:Arial; font-size:12px; color:#e10000; font-weight:bold; text-align:left;
+}
+
+.cap5
+{
+font-family:Georgia; font-size:1em; color:#e10000;text-align:left; font-weight:bold;
+}
+
+
+.cap6
+{
+font-family:verdana; font-size:15px; font-weight:normal; color:#333333;text-align:left;
+}
+.cap5_b
+{
+font-family:Georgia; font-size:1em;; color:#000000;text-align:left; font-weight:bold;
+}
+a{ color:#e10000;}
+strong{color:#666666}
+.link2{ color:#e10000; font-size:11px; }
+.link3{color:#FFFFFF; text-align:left; font-family:Arial; font-size:11px; font-weight:bold; text-decoration:none}
+.link3:hover{color:#FFFFFF; text-align:left; font-family:Arial; font-size:11px; font-weight:bold; text-decoration:underline}
+.link4{ color:#e10000; font-size:11px; font-family:Arial; text-decoration:none; }
+.link5{color:#e10000; text-align:left; font-family:Arial; font-size:12px; font-weight:bold; text-decoration:none}
+.link5:hover{color:#e10000; text-align:left; font-family:Arial; font-size:12px; font-weight:bold; text-decoration:underline}
+.link6{ color:#e10000; font-size:15px; font-family:Verdana; text-decoration:none; }
+.link6:hover{ color:#e10000; font-size:15px; font-family:Verdana; text-decoration:underline; }
+.menu{ color:#000000; font-size:11px; font-family:Arial; text-decoration:underline; font-weight:bold }
+.menu:hover{ color:#ffffff; font-size:11px; font-family:Arial; text-decoration:underline; font-weight:bold }
+
+.footer_link
+{
+font-family:Arial; font-size:11px; color:#000000; font-weight:normal; text-align:left; text-decoration:none;
+}
+.footer_link:hover
+{
+font-family:Arial; font-size:11px; color:#000000; font-weight:normal; text-align:left; text-decoration:underline;
+}
+.boxlink1{height:15px; background-color:#e10000; color:#FFFFFF; text-align:center;  font-family:Arial; font-size:11px; font-weight:bold;}
+.boxlink2{height:15px; background-color:#FF2222; color:#FFFFFF; text-align:center;  font-family:Arial; font-size:11px; font-weight:bold;}
+.text1{ color:#333333;}
+
+.redtext{color:#e10000;}
+.redborder{ border: 1px #e10000 dotted}
+
+SELECT {
+	BORDER-RIGHT: #999999 1px solid; BORDER-TOP: #999999 1px solid; FONT-SIZE: 11px; BACKGROUND: #ffffff; BORDER-LEFT: #999999 1px solid; COLOR: #000000; LINE-HEIGHT: normal; BORDER-BOTTOM: #999999 1px solid; FONT-STYLE: normal; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; FONT-VARIANT: normal; TEXT-DECORATION: none
+}
+OPTION {
+	FONT-SIZE: 11px; BACKGROUND: #ffffff; COLOR: #000000; LINE-HEIGHT: normal; FONT-STYLE: normal; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; FONT-VARIANT: normal; TEXT-DECORATION: none
+}
+TEXTAREA {
+	 border:1px #7B9EBD solid;
+	 BACKGROUND: #ffffff; COLOR: #1E3C4A; LINE-HEIGHT: normal; 
+	 FONT-SIZE: 11px; LINE-HEIGHT: normal; FONT-STYLE: normal; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; FONT-VARIANT: normal; TEXT-DECORATION: none;
+}
+
+
+
+
+input.textbox {
+	 border:1px #fac5c5 solid;
+	 BACKGROUND: #9CCFFF; COLOR: #1E3C4A; LINE-HEIGHT: normal; 	 
+}
+file  {
+	 border:1px #fac5c5 solid;
+	 BACKGROUND: #F2F6FF; COLOR: #1E3C4A; LINE-HEIGHT: normal; 
+}
+
+
+input.radio, input.checkbox {
+	width : 1em;
+	height : 2em;
+}
+
+
+.form_button
+{
+   font-size:11px;
+   font-family:Verdana;
+   width:100px;
+   color:#ffffff;
+   height:22px;
+   letter-spacing:1px;
+   background-color:#F7494A;
+   border-top-style:solid;
+   border-top-color:#F7C100;
+   border-top-width:1px;
+   border-bottom-style:solid;
+   border-bottom-color:#F7C100;
+   border-bottom-width:1px;
+   border-left-style:solid;
+   border-left-color:#F7C100;
+   border-left-width:2px;
+   border-right-style:solid;
+   border-right-color:#F7C100;
+   border-right-width:3px;
+}
+
+.stylebutn {
+	BACKGROUND-COLOR: #F0F0E8; BORDER-BOTTOM: #000000 1px solid; BORDER-LEFT: #000000 1px solid; BORDER-RIGHT: #000000 1px solid; BORDER-TOP: #000000 1px solid; FONT-FAMILY: verdana, arial, helvetica; FONT-SIZE: 11px; FONT-WEIGHT: normal; color:#000000;
+}
+
+.stylebutton{
+	BACKGROUND-COLOR: #CC3333; BORDER-BOTTOM: #000000 1px solid; BORDER-LEFT: #000000 1px solid; BORDER-RIGHT: #000000 1px solid; BORDER-TOP: #000000 1px solid; FONT-FAMILY: verdana, arial, helvetica; FONT-SIZE: 11px; FONT-WEIGHT: normal; color:#FFFFFF;
+}
+
+.page_link_table{BACKGROUND-COLOR: #ffffff; COLOR: #0066cc; FONT: 10px Arial, Helvetica, sans-serif; HEIGHT: 25px; MARGIN-BOTTOM: 10px; WIDTH: auto}
+.page_link_table A:link{font-family:Arial, Helvetica, sans-serif;font-weight:bold;font-size:11px; color:#006699; text-decoration:none }
+.page_link_table A:hover{font-family:Arial, Helvetica, sans-serif;font-weight:bold;font-size:11px; color:#006699; text-decoration:none }
+.page_link_table A:active{font-family:Arial, Helvetica, sans-serif;font-weight:bold;font-size:11px; color:#006699; text-decoration:none }
+.page_link_table A:visited{font-family:Arial, Helvetica, sans-serif;font-weight:bold;font-size:11px; color:#006699; text-decoration:none }
+
+
+/*- Menu Tabs F--------------------------- */
+
+    #tabsF {
+      background:#ffffff;
+      font-size:93%;
+      line-height:normal;
+	  border-bottom:0px solid #666;
+      }
+    #tabsF ul {
+	margin:0;
+	padding:11px 0px 0 40px;
+	list-style:none;
+      }
+    #tabsF li {
+      display:inline;
+      margin:0;
+      padding:0;
+      }
+    #tabsF a {
+      float:left;
+      background:url("images/tableft10.gif") no-repeat left top;
+      margin:0;
+      padding:0 0 0 4px;
+      text-decoration:none;
+      }
+    #tabsF a span {
+      float:left;
+      display:block;
+      background:url("images/tabright10.gif") no-repeat right top;
+      padding:5px 15px 4px 6px;
+      color:#1e3c4a;
+	  font-weight:bold;
+	  font-size:11px;
+      }
+    /* Commented Backslash Hack hides rule from IE5-Mac \*/
+    #tabsF a span {float:none;}
+    /* End IE5-Mac hack */
+    #tabsF a:hover span {
+      color:#003366;
+	  }
+    #tabsF a:hover {
+      background-position:0% -42px;
+	  color:#ffffff;
+      }
+    #tabsF a:hover span {
+      background-position:100% -42px;
+	  color:#ffffff;
+      }
+	 #tabs {
+	  position:relative;
+      float:right;
+      width:100%;
+      background:#ffffff;
+      font-size:93%;
+      line-height:normal;
+	  border-bottom:1px #1E3C4A solid;
+	  margin-bottom:10px;	
+      }
+    #tabs ul {	
+	margin:0;
+	padding:5px 5px 0 5px;
+	list-style:none;
+      }
+    #tabs li {
+      display:inline;
+      margin:0;
+      padding:0;
+      }
+    #tabs a {
+      float:left;
+      background:url("images/tableft.gif") no-repeat left top;
+      margin:0;
+      padding:0 0 0 4px;
+      text-decoration:none;
+	  color:#000000;
+      }
+    #tabs a span {
+      float:left;
+      display:block;
+      background:url("images/tabright.gif") no-repeat right top;
+      padding:5px 15px 4px 6px;
+      color:#666;
+	   color:#000000;
+      }
+    /* Commented Backslash Hack hides rule from IE5-Mac \*/
+    #tabs a span {float:none;}
+    /* End IE5-Mac hack */
+    #tabs a:hover span {
+      color:#ffffff;
+      }
+    #tabs a:hover {
+      background-position:0% -42px;
+      }
+    #tabs a:hover span {
+      background-position:100% -42px;
+      }
+.hint {
+  display:none;
+  position: absolute;
+  right: -250px;
+  width: 200px;
+  margin-top: -4px;
+  border: 1px solid #c93;
+  padding: 10px 12px;
+  background: #ffc url("images/pointer.gif") no-repeat -100px -100px;
+}
+
+.hint .hint-pointer {
+    position: absolute;
+    left: -10px;
+    top: 5px;
+    width: 10px;
+    height: 19px;
+    background: url("images/pointer.gif") left top no-repeat;
+}	
+.tr1 {
+  position: relative;
+  width: 350px;
+}
+.tdl {
+  clear: both;
+  float:left;
+  width: 130px;
+  padding: 4px 0 2px 0;
+  text-align: left;
+}
+.tdr {
+  float: left;
+  width: 200px;
+  margin: 0 0 8px 0;
+  padding-left: 6px;
+}  
+
+/*autocompleter */
+
+div.autocomplete {
+position: absolute;
+width: 250px; /* will be adjusted by script.aculo.us */
+background-color: white; border: 1px solid #888 ;
+margin: 0px; padding: 0px;
+}
+div.autocomplete ul {
+list-style-type: none; margin: 0px; padding: 0px;
+}
+div.autocomplete ul li.selected { background-color: #ff9 ;}
+div.autocomplete ul li {
+list-style-type: none; display: block;
+font-family: sans-serif; font-size: smaller; color: #444 ;
+margin: 0; padding: 0.1em; height: 1.5em; line-height: 1.5em;
+cursor: pointer;
+}
+
+.welcome {
+	color:#000000;
+	font-family:verdana;
+	font-size:11px;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+.welcome_1 {
+	color:#ff0000;
+	font-family:verdana;
+	font-size:11px;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+a.menu {
+	color:#000000;
+	font-family:verdana;
+	font-size:11px;
+	font-weight:bold;
+	text-decoration:none;
+}
+a.menu:hover {
+	color:#ff0000;
+	font-family:verdana;
+	font-size:11px;
+	font-weight:bold;
+	text-decoration:underline;
+}
+
+
+/* CHAT DIVS*/
+.main_chat_div{ background-color: #FFFFFF;border: 1px solid #CCCCCC;  font-size:12px;width:200px;height:180px; position:absolute;display:none}
+.chat_header{height:20px; width:200px;background-color:#0497DD}
+.chat_header_right_div{float:right; padding-right:4px; cursor:pointer; font-weight:bold; color:#FFFFFF}
+.chat_header_left_span{cursor:pointer;font-weight:bold; color:#FFFFFF}
+.chat_main{height:159px; width:200px;overflow:auto;}
+.chat_container{height:110px; width:200px;overflow:auto;}
+.chat_msg{height:29px; width:200px; overflow:auto;}
+.chat_comment{border:1px solid #000000;width:195px; height:20px;}
+.chat_submit{height:20px; width:200px; overflow:auto}
+.chat_submit_btn{height:20px}
+
+/*END CHAT DIV*/
+
+/* CHAT DIVS*/
+.vid_main_chat_div{ background-color: #FFFFFF;border: 1px solid #CCCCCC;  font-size:12px;width:290px;height:180px; position:absolute;display:none}
+.vid_chat_header{height:20px; width:290px;background-color:#0497DD}
+.vid_chat_header_right_div{float:right; padding-right:4px; cursor:pointer; font-weight:bold; color:#FFFFFF}
+.vid_chat_header_left_span{cursor:pointer;font-weight:bold; color:#FFFFFF}
+.vid_chat_main{height:159px; width:290px;overflow:auto;}
+.vid_chat_container{height:110px; width:290px;overflow:auto;}
+.vid_chat_msg{height:29px; width:290px; overflow:auto;}
+.vid_chat_comment{border:1px solid #000000;width:280px; height:20px;}
+.vid_chat_submit{height:20px; width:280px; overflow:auto}
+.vid_chat_submit_btn{height:20px}
+
+/*END CHAT DIV*/

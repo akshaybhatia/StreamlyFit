@@ -1,0 +1,406 @@
+@font-face {
+    font-family: 'webfontregular';
+    src: url('humanist_521_light_bt-webfont.eot');
+    src: url('humanist_521_light_bt-webfont.eot?#iefix') format('embedded-opentype'),
+         url('humanist_521_light_bt-webfont.woff') format('woff'),
+         url('humanist_521_light_bt-webfont.ttf') format('truetype'),
+         url('humanist_521_light_bt-webfont.svg#webfontregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{margin:0px; padding:0px; font-family:webfontregular;}
+span,p,div,ul,h1,h2,h3,h4{margin:0px; padding:0px;}
+
+img{
+border:0px;
+}
+
+img, fieldset {
+	border: 0;
+}
+
+.clearfix{clear:both}
+
+/* Header Area CSS */
+.header_area{width:100%; height:117px; background:url(../images/header_bg.jpg) top left repeat-x; position:fixed; top:0; left:0; z-index:1000;}
+.header_main_area{width:978px; height:117px; margin:auto;}
+.logo_area{width:221px; height:117px; float:left; padding-left:16px; margin-right:81px;}
+.tab_area{width:660px; height:117px; float:right;}
+.toptab_area{ width:660px; height:34px; text-align:right; font-family:webfontregular; font-size:17px; color:#fff; padding-top:25px;}
+.toptab_area ul{margin:0px; list-style-type:none; display:inline;}
+.toptab_area ul li{display:inline; padding:0px 8px 0px 8px;}
+.toptab_area ul li a{color:#fff; text-decoration:none;}
+.toptab_area ul li a:hover{color:#95c32d; text-decoration:none;}
+.bottomtab_area{width:660px; height:58px;}
+.main_tab_area{ width:327px; height:58px; float:left; font-family:webfontregular; font-size:23px; color:#fff;}
+.signup_area{ width:105px; height:33px; float:left; margin-right:19px; background:#95c32d; border-radius: 15px; font-family:webfontregular; font-size:23px; color:#fff; text-align:center; padding-top:3px;}
+.signup_area a{ text-decoration:none; color:#fff;}
+.signup_area a:hover{ text-decoration:none; color:#fff;}
+
+.search_area{width:205px; height:36px; float:left; background:#e8e6da; border-radius: 15px; }
+.search_fill{ width:168px; height:36px; float:left;}
+.search_button{ width:37px; height:36px; float:left;}
+.search_input{ border:none; background:transparent; width:145px; padding-left:15px; padding-top:8px; color:#7c7c7c; font-family:webfontregular; font-size:17px; outline:none;}
+
+.main_tab_area ul{margin:0px; list-style-type:none; display:inline;}
+.main_tab_area ul li{ display:inline; padding-right:30px;}
+.main_tab_area ul li a{color:#fff; text-decoration:none;}
+.main_tab_area ul li a:hover{color:#95c32d; text-decoration:none;}
+
+/* End Header Area CSS */
+
+/* Body Area CSS */
+.body_space{ padding-top:117px;}
+.body_area{width:100%; height:1138px; background:url(../images/body_bg.jpg) top left repeat-x; margin-top:117px;}
+.body_main_area{width:1200px; height:auto; margin:auto;}
+.header_animated_area{ width:1200px; height:666px;}
+.videoplaylist_area{ width:1200px; height:471px; margin:auto;}
+
+/* First Slide */
+.first_slide{ width:1200px; height:666px;}
+.first_slide_left{ width:170px; height:666px; float:left;}
+.first_slide_center{ width:591px; height:610px; float:left; margin-top:35px; background:url(../images/video_area.jpg) top left no-repeat; padding:21px 22px 0px 22px;}
+.first_slide_right{ width:372px; height:631px; float:left; margin-top:35px; padding-left:23px;}
+.first_slide_right h1{color:#037ea0; font-family:webfontregular; font-size:65px;}
+.first_slide_right h2{color:#037ea0; font-family:webfontregular; font-size:36px; font-weight:bold; line-height:35px;}
+.first_slide_right h3{color:#037ea0; font:normal 15px Tahoma; color:#585858; line-height:25px; font-weight:bold; padding-right:160px; padding-top:10px;}
+
+
+/* 2nd Slide */
+.second_slide{ width:1200px; height:666px;}
+.second_slide_image{ background:url(../images/second_slide.png) top left no-repeat; width:1200px; height:666px;}
+.second_slide_left_area{ width:335px; height:auto; float:left; margin-left:51px;}
+.second_slide_center_content{width:646px; height:auto; float:left;}
+.second_slide_right_bar{width:168px; height:auto; float:left;}
+.second_slide_center_content h1 { font-family:webfontregular; font-size:42px; color:#037ea0; font-weight:900; padding-top:76px; padding-bottom:10px;}
+.second_slide_center_content h2{font-family:Tahoma; color:#585858; line-height:25px; font-size:16px; padding-bottom:18px;}
+.signup_main_area{ width:610px; height:auto; margin:0px 22px 0px 14px;}
+.signup_main_left_area{ width:309px; height:auto; float:left; margin-right:8px;}
+.signup_main_right_area{ width:293px; height:auto; float:left;}
+.input_area{ height:48px; width:309px;}
+.input_area_border{ background:#ffffff; border:1px solid #dddddd; border-width:1px; width:297px; height:46px; border-radius: 8px; padding-left:10px; color:#7d7d7d; font-family:webfontregular; font-size:16px; outline:none;}
+.inputspace_area{ padding-bottom:16px;}
+.signup_button_area{ width:262px; height:auto; float:left;}
+.signup_text_area{ height:auto; float:left; color:#037ea0; font-family:webfontregular; font-size:23px; padding-top:15px;}
+.inputspace_area1{ margin-top:17px;}
+.signup_text_area a{color:#037ea0; text-decoration:none;}
+.signup_text_area a:hover{color:#037ea0; text-decoration:none;}
+.yoga_floor_area{ width:624px; height:auto; margin:0px 22px 0px 0px;}
+.secondslide_floor{ padding-top:197px;}
+
+/* 3rd Slide */
+.third_slide{ width:1200px; height:666px;}
+.third_left_bar{ width:533px; height:auto; float:left; margin-left:143px;}
+.third_right_bar{ width:524px; height:auto; float:left;}
+.third_left_bar h1{font-family:webfontregular; font-size:38px; color:#037ea0; font-weight:900; letter-spacing:-1px; padding-top:50px;}
+.third_left_bar h2{font-family:Tahoma; color:#585858; line-height:25px; font-size:16px;}
+.third_picture_area{ height:209px; width:533px; margin-top:15px;}
+.third_mat_area{ padding-top:197px; padding-left:450px;}
+
+/* 4th Slide */
+.forth_slide{ width:1200px; height:666px;}
+.forth_left_bar{width:328px; height:auto; margin-left:110px; float:left;}
+.forth_center_bar{width:576px; height:auto; margin-left:74px; float:left;}
+.forth_right_bar{width:112px; height:auto; float:left;}
+.forth_center_bar h1{font-family:webfontregular; font-size:24px; color:#333333; padding-top:83px; letter-spacing:-1px; }
+.forth_center_bar h2{font-family:webfontregular; font-size:34px; color:#0079a0; }
+.forth_center_bar h3{font-family:webfontregular; font-size:15px; color:#6c6c6c; letter-spacing:-1px; padding-top:10px; }
+.fourth_signup_main_area{width:576px; height:auto; margin-top:54px;}
+
+
+
+
+
+
+/* Video Playlist Area */
+.videoplaylistmain_area{ width:989px; height:auto; margin:auto;}
+.top_space {
+	margin-top:93px;
+}
+
+
+/* Playlist Tab CSS */
+
+#tabs_wrapper {
+	width: 978px;
+	margin-left:5px;
+}
+#tabs {
+	list-style: none;
+	padding: 10px 0 12px 0;
+	font-family:webfontregular;
+	color:#fff;
+	font-size:27px;
+}
+#tabs li {
+	display: inline;
+}
+#tabs li a {
+	text-decoration: none;
+	background-color: #05779b;
+	outline: none;
+	border-radius: 5px 5px 0 0;
+	-moz-border-radius: 5px 5px 0 0;
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+	padding: 12px 15px 12px 15px;
+	font-family:webfontregular;
+	color:#fff;
+	font-size:27px;
+
+}
+#tabs li a:hover {
+	background-color: #fff;
+	padding: 12px 15px;
+	font-family:webfontregular;
+	color:#07799c;
+	font-size:27px;
+}
+#tabs li.active a {
+	background-color: #fff;
+	padding: 12px 15px 12px 15px;
+	font-family:webfontregular;
+	color:#07799c;
+	font-size:27px;
+}
+#tabs li.active a:hover {
+	background-color: #05779a;
+	padding: 12px 15px 12px 15px;
+	font-family:webfontregular;
+	color:#fff;
+	font-size:27px;
+}
+#tabs_content_container {
+	width: 904px;
+	height:324px;
+	padding-left:37px;
+	padding-right:37px;
+	background:url(../images/playlistarea_bg.jpg) top left repeat-x;
+}
+.tab_content {
+	display: none;
+	
+}
+
+
+
+/* End Playlist Tab CSS */
+
+.slides {
+	width:893px;
+	height:284px;
+	margin:auto;
+	padding-top:40px;
+}
+
+.video_thumb {
+	width:184px;
+	height:235px;
+	border:1px solid #e0e0e0;
+	border-width:1px;
+	padding:6px 8px 0px 9px;
+	float:left;
+}
+.small_video_area {
+	width:184px;
+	height:121px;
+	margin-bottom:15px;
+}
+.video_content {
+	width:184px;
+	height:89px;
+}
+.space_right {
+	margin-right:20px;
+}
+.left_arrow {
+	position:absolute;
+	z-index:100;
+	width:35px;
+	height:70px;
+	padding-top:165px;
+}
+.right_arrow {
+	position:absolute;
+	z-index:100;
+	width:35px;
+	height:70px;
+	padding-top:165px;
+	margin-left:954px;
+}
+
+
+/*For Left and right Scroll TAB Area CSS */
+
+.list_carousel {
+	width: 893px;
+	height:243px;
+	margin-left:10px;
+}
+.list_carousel ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: block;
+}
+.list_carousel li {
+	width:184px;
+	height:235px;
+	border:1px solid #e0e0e0;
+	border-width:1px;
+	padding:6px 8px 0px 9px;
+	display: block;
+	float: left;
+}
+.list_carousel.responsive {
+	width: auto;
+	margin-left: 0;
+}
+.clearfix {
+	float: none;
+	clear: both;
+}
+
+
+/* Yoga Starter */
+
+.yoga_starter{
+	width:163px;
+	height:20px;
+	padding-left:9px;
+	color:#087a9d; font-family:webfontregular; font-size:15px; font-weight:bold;
+	padding-bottom:5px;
+}
+
+.yoga_starter a{color:#087a9d; text-decoration:none;}
+.yoga_starter a:hover{color:#7fb624; text-decoration:none;}
+
+.rating_area{
+	width:172px;
+	padding-left:12px;
+	height:auto;
+}
+
+.overall_area_new{
+	width:172px;
+	height:auto;
+	padding-top:4px;
+}
+.overall_space{ margin-top:2px;}
+
+
+.overall_area_left_col{width:72px; color:#87888a; font-family:Tahoma; font-weight:bold; font-size:11px; float:left;}
+.overall_area_right_col{width:100px; color:#87888a; font-family:Tahoma; font-size:11px; float:left;}
+
+
+
+
+/* Play List Area */
+.playlist_area{ width:100%; height:122px; background:#05779a;}
+.playlist_area_center{ width:1200px; height:auto; margin:auto;}
+.main_playlist_area{ width:989px; height:auto; margin:auto;}
+.playlist_left_arrow{ width:35px; height:auto; float:left; padding-top:12px;}
+.playlist_center{ width:919px; height:auto; float:left; margin-top:16px;}
+.playlist_right_arrow{ width:35px; height:auto; float:left; padding-top:12px;}
+.dropvideo_area{ width:136px; height:64px; border:1px dotted #13aec6; border-width:1px; float:left; font-family:webfontregular; color:#89e1fc; font-size:17px; text-transform:uppercase; vertical-align:middle; text-align:center; padding-top:25px;}
+.break_area{ width:138px; height:66px; background:#00466f; float:left; font-family:webfontregular; color:#89e1fc; font-size:17px; text-transform:uppercase; vertical-align:middle; text-align:center; padding-top:25px;}
+.drop_video{ width:138px; height:91px; float:left;}
+.drop_video_rating{ width:138px; height:91px; float:left; background:url(../images/rating_bg.jpg) top left no-repeat;}
+
+.drop_video_rating h1{font-family:webfontregular; color:#fff; font-size:17px; font-weight:100; padding:15px 0px 0px 14px;}
+.drop_video_rating h2{font-family:webfontregular; color:#87888a; font-size:13px; font-weight:100; padding:5px 0px 0px 14px;}
+
+.yogastarter_area{ width:116px; height:auto; margin:4px 8px 0px 14px;}
+.overall_area{width:116px; height:auto; margin-bottom:6px;}
+.overall_text{ width:65px; height:auto; float:left; font-family:webfontregular; color:#87888a; font-size:13px; font-weight:100; text-align:left;}
+.overall_rating{ width:51px; height:auto; float:left;}
+.overall_rating_space{ padding-top:3px;}
+.intencity_icon{ float:left; padding-right:5px; padding-top:2px;}
+.star_icon{ float:left; padding-top:2px; padding-right:1px;}
+.complexity_icon{ float:left; padding-top:0px; padding-right:1px;}
+
+.drop_space{ margin-left:7px;}
+.drop_space1{ margin-left:14px;}
+.drop_space2{ margin-left:17px;}
+.drop_space3{ margin-left:17px; margin-right:7px;}
+
+
+
+/* Footer Area */
+.footer_area{ width:100%; height:82px; background:#00385d; /*position:fixed; bottom:0px;*/}
+.footer_main_area{ width:989px; height:65px; margin:auto; padding-top:17px;}
+.workout_area{ width:209px; height:34px; border:1px dotted #05779a; border-width:1px; float:left; font-family:webfontregular; color:#037ea0; font-size:20px; font-weight:400; padding:13px 0px 0px 14px; }
+.workspace{ margin-left:15px;}
+.work_length{ width:168px; height:auto; float:right; padding-top:5px;}
+.work_length h1{font-family:webfontregular; color:#037ea0; font-size:13px; font-weight:600; text-transform:uppercase;}
+.work_length h2{font-family:webfontregular; color:#fff; font-size:22px; font-weight:300}
+
+
+/* Video Landing Page Area */
+
+.video_landing_area{width:890px; height:auto; margin:0px 155px 0px 155px;}
+.video_landing_heading{font-family:webfontregular; color:#0079a0; font-size:49px; font-weight:bold; text-align:center; padding-top:76px; padding-bottom:41px;}
+.video_box_area{ width:890px; height:auto;}
+.fistbox{ width:269px; height:100px; float:left; background:#037ea0; border-radius:10px; font-family:webfontregular; color:#fff; font-size:32px; font-weight:bold; text-align:center; padding-top:51px;}
+.box_space{ margin-right:41px;}
+
+.fistbox a{ color:#fff; text-decoration:none;}
+.fistbox a:hover{ color:#95c32d; text-decoration:none;}
+
+
+/* Just the Video Page Area */
+.bigvideo_body_area{width:100%; height:792px; background:url(../images/body_bg.jpg) top left repeat-x; margin-top:117px;}
+.big_video_area{ padding:35px 0px 0px 283px;}
+.big_video{width:591px; height:369px; background:url(../images/video_area.jpg) top left no-repeat; padding:21px 22px 0px 22px;}
+.big_video_space{ margin:30px 0px 0px 0px;}
+.bigvideo_top_space {
+	margin-top:43px;
+}
+
+
+/* Chat Area CSS */
+
+.chat_area{width:276px; height:310px; z-index:1000; right:-230px; bottom:0px; position:fixed;  border:0px solid #00FF33}
+.chat_icon{width:47px; height:49px; float:left; background:#05779b;}
+.chat_icon_text{width:219px; height:39px; float:left; background:#05779b; font-family:webfontregular; color:#fff; font-size:22px; font-weight:bold; padding-top:10px; text-align:left; padding-left:10px;}
+
+.chat_window{width:276px; bottom:0px; height:251px;}
+.chat_icon_area{width:47px; height:255px; float:left;}
+.chat_box_area{width:270px; height:255px; float:left; border:3px solid #05779b; border-width:3px; background:#FFFFFF;}
+.chatlist_area{ width:250px; height:193px;}
+.search_friend_result{ width:265px; height:160px; display:none}
+
+.chat_search{ width:250px; height:53px;}
+.search_box_area{ width:153px; height:37px; float:left; border:1px solid #bdbdbd; border-width:1px; border-radius: 15px; margin-left:10px;}
+.invite_box_area{ width:50px; height:37px; float:left;}
+.chat_search_fill{width:116px; height:31px; float:left;}
+.chat_search_btn{ width:37px; height:31px; float:left; margin-top:3px;}
+.chat_text_input{ border:none; width:100px; margin-left:10px; margin-top:7px;}
+
+.chatlist_name{ width:270px; height:29px; border-bottom:1px solid #e0e0e0;}
+.chat_online_area{ width:9px; height:19px; margin-left:9px; margin-right:9px; float:left;  padding-top:11px;}
+.chat_online_name{ width:200px; height:25px; float:left; padding-top:4px; font-weight:bold;}
+.chat_invite_area{ width:27px; height:25px; float:left; padding-top:2px; font-weight:bold; padding-right:9px;}
+.chat_online_name a{ text-decoration:none; color:#000; }
+.chat_online_name a:hover{ text-decoration:none; color:#000; }
+
+/* With A Friend Area */
+.friend_body_area{width:100%; height:1257px; background:url(../images/body_bg.jpg) top left repeat-x; margin-top:117px;}
+.mirror_body_area{width:100%; height:1048px; background:url(../images/body_bg.jpg) top left repeat-x; margin-top:117px;}
+.more_video_area{ width:1200px; height:auto;}
+.morevideo_morea_area{ width:933px; height:auto; margin:auto;}
+.friend_video{ width:413px; height:220px; background:url(../images/friend_video.png) top left no-repeat; float:left; padding:16px 19px 20px 19px;}
+.morevideo_morea_area h1{font-family:webfontregular; color:#fff; font-size:32px; font-weight:bold; padding-top:10px; padding-bottom:10px;}
+.online_user{ width:40px; height:auto; padding-top:10px; float:left; margin-left:10px;}
+.online_user_name{font-family:arial; color:#fff; font-size:12px; font-weight:bold; text-align:center; padding-top:5px;}
+.online_user_name a{ text-decoration:none; color:#fff;}
+.online_user_name a:hover{ text-decoration:none; color:#fff;}
+.invite_friend_area{ height:130px; background:#FFFFFF; width:928px; margin-left:110px; overflow:auto; padding:10px 10px 10px 50px;}
+.online_user_area{ width:300px; float:left; height:auto; margin-top:10px;}
+.online_user_area_left{ width:40px; height:auto; float:left;}
+.online_user_area_right{ width:260px; height:auto; float:left; padding-top:7px;}
+.online_user_area_right a{ text-decoration:none; color:#000000;}
+.online_user_area_right a:hover{ text-decoration:none; color:#000000;}
+
+

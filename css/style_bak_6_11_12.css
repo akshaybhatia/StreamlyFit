@@ -1,0 +1,491 @@
+body{margin:0px; padding:0px; font:normal 14px arial; color:#002c69;}
+img{border:none;}
+.clear{ clear:both}
+p,span,form, ul{margin:0px; padding:0px;}
+
+/***********************************Header Css**********************************************************/
+.header_area{width:100%; height:201px; background:url(../images/header_bg.jpg) top left repeat-x;}
+.header_center{width:980px; height:58px; margin:auto;}
+.logo_area{width:308px; height:107px; float:left; margin:42px 0px 0px 0px}
+.search_area{width:350px; height:75px; float:left; margin:74px 17px 0px 31px;}
+.input_area{ width:260px; height:39px; float:left; background:url(../images/input_bg.jpg) top left no-repeat; margin-right:4px;}
+.search_btn{ width:86px; height:39px; float:left;}
+.search_fill{ width:215px; height:27px; border:none; background:transparent; padding:5px 0px 0px 38px; outline:none;}
+.login_area{width:274px; height:149px; float:left;}
+.login_user_area{ width:274px; height:75px; background:#002c69;}
+.login_text{ font:normal 14px arial; color:#fff; text-align:left; padding:18px 0px 10px 12px;}
+.login_text a{color:#fff; text-decoration:none;}
+.login_text a:hover{color:#fff; text-decoration:underline;}
+.user_area{ width:250px; height:23px; margin:0px 0px 0px 12px; background:url(../images/user_bg.png) top left no-repeat;}
+.blue_round{ background:url(../images/blue_round.jpg) top left no-repeat; width:274px; height:11px;}
+.user_login_area{width:93px; height:23px; float:left; margin-right:5px;}
+.user_password_area{width:93px; height:23px; float:left; margin-right:5px;}
+.user_login_btn{ width:54px; height:23px; float:left;}
+.login_fill{ width:87px; height:15px;  border:none; background:transparent; padding:2px 0px 4px 3px; outline:none; }
+.facebook_area{ width:274px; height:26px; margin:11px 0px 0px 0px; float:right;}
+.tab_area{ width:980px; height:45px;}
+.tab_menu_area{width:818px; height:25px; float:left; padding-top:6px;}
+.facebook_icon_area{ width:162px; height:33px; float:left; padding:12px 0px 0px 0px;}
+
+#top_menu ul{
+margin: 0;
+padding: 0;
+float: left;
+font:normal 14px arial;
+color:#fff;
+}
+
+* html #top_menu ul{ /*IE only rule, reduce menu width*/
+width: 99%;
+}
+
+#top_menu ul li{
+display: inline;
+}
+
+#top_menu ul li a{
+float: left;
+padding:12px 20px 12px 12px;
+text-decoration: none;
+height:20px;
+font:normal 14px arial;
+color:#fff;
+}
+
+#top_menu ul li a:visited{
+font:normal 14px arial;
+color:#fff;
+
+}
+
+#top_menu ul li a:hover{
+background-color: #849600;
+font:normal 14px arial;
+color:#fff;
+}
+
+#top_menu ul li #activemenu {
+background-color: #849600;
+font:normal 14px arial;
+color:#fff;
+}
+
+/***********************************End Header Css**********************************************************/
+
+
+/***********************************Turorial Css**********************************************************/
+.tutorial_area{width:100%; height:365px; background:url(../images/tutorial_bg.jpg) top left repeat-x;}
+.tutorial_center{ width:980px; height:365px; margin:auto;}
+.student_area{ width:275px; height:365px; float:left; background:url(../images/student_bg.jpg) top left repeat-y;}
+.questions_area{ width:432px; height:365px; float:left; background:url(../images/questions_bg.jpg) top left no-repeat;}
+.questions_type_area{ width:294px; height:110px; padding:68px 0px 13px 67px;}
+.textarea_fill{ width:294px; height:110px; border:none; background:transparent; outline:none;}
+.aska_questions_btn{ width:124px; height:31px; float:right; margin-right:61px;}
+.tutors_area{ width:273px; height:365px; float:left; background:url(../images/tutors_bg.jpg) top left repeat-y;}
+.student_heading{ width:153px; height:47px; float:right; background:url(../images/tutor_bg.png) top left no-repeat; margin:21px 0px 26px 0px; font:normal 22px arial; color:#fff; text-align:center; padding-top:8px;}
+.need_help_heading{font:bold 26px arial; color:#fff; text-align:left;}
+.questions_area1{ width:273px; height:auto; float:left; float:left;}
+.questions_area1 .icon_area{ width:96px; height:auto; float:left;}
+.questions_area1 .icon_area1{ width:96px; height:auto; float:left; padding-top:30px;}
+.questions_area1 .text_area{ width:177px; height:auto; float:left;}
+.questions_text_con{ font:normal 16px arial; color:#002c69; line-height:18px; padding-right:30px;}
+.questions_text_con span{font:normal 20px arial; color:#1c1821; }
+.questions_text_con1{ font:normal 16px arial; color:#002c69; line-height:18px; text-align:right; padding-right:10px; padding-top:10px;}
+.learn_more{ margin-top:46px; margin-left:29px;}
+.learn_more1{ margin-top:20px; margin-left:80px;}
+.tutor_heading{ width:153px; height:47px; float:left; background:url(../images/tutor_heading_bg.png) top left no-repeat; margin:21px 0px 26px 0px; font:normal 22px arial; color:#fff; text-align:center; padding-top:8px;}
+.need_help_heading1{font:bold 26px arial; color:#fff; text-align:right;}
+
+/***********************************End Turorial Css**********************************************************/
+
+/***********************************Body CSS**********************************************************/
+
+.body_area{width:100%; height:auto; background:#ffffff; min-height:200px;}
+.body_center{ width:980px; height:365px; margin:auto; padding:15px 0px 22px 0px;}
+.body_center .left_col{ width:707px; height:auto; float:left; margin-right:22px;}
+.body_center .right_col{ width:251px; height:auto; float:left;}
+.border_area{ width:249px; height:354px; border:1px solid #b1c179; border-width:0px 1px 0px 1px; background:url(../images/border_bg.jpg) #e9f1cc top left repeat-x;}
+.top_tutorial{font:bold 17px arial; color:#002c69; padding:20px 0px 0px 12px;}
+.top_tutorial_area{ width:205px; height:auto; margin:9px 22px 9px 22px;}
+.box_area{ width:205px; height:63px; margin-bottom:15px; background:#ffffff;}
+.box_border{ border:1px solid #d2d2d2; border-width:0px 1px 0px 1px;}
+.box_thumb{ width:44px; height:57px; float:left; margin:0px 45px 0px 9px;}
+.box_content{ width:100px; height:57px; float:left; }
+.spqr_text{ font:normal 16px arial; color:#626568}
+.spqr_sub_text{ font:normal 12px arial; color:#626568}
+.spqr_sub1_text{ font:normal 20px arial; color:#1db8d9}
+.body_border_area{ width:705px; height:353px; border:1px solid #b1c179; border-width:0px 1px 0px 1px; background:url(../images/body_line.jpg) top left repeat-x;}
+.get_paid{ width:178px; float:left; height:auto; margin:22px 12px 0px 16px;}
+.get_paid{ width:178px; float:left; height:auto; margin:22px 12px 0px 16px;}
+.classy_tabs_area{ width:477px; float:left; height:auto; margin:22px 22px 0px 0px;}
+.get_paid h1{ font:bold 16px arial; color:#002c69; text-transform:uppercase;}
+.get_paid_text{font:bold 16px arial; color:#626568; padding-top:10px; padding-bottom:10px;}
+
+/*********************************** End Body CSS**********************************************************/
+
+
+/***********************************Footer Css**********************************************************/
+.footer_area{width:100%; height:58px; background:#002c69;}
+.footer_center{width:980px; height:58px; margin:auto;}
+.footer_tab_area{width:684px; height:33px; float:left; font:normal 11px arial; color:#cff1f6; padding-top:25px;}
+.footer_tab_area a{color:#cff1f6; text-decoration:none;}
+.footer_tab_area a:hover{color:#cff1f6; text-decoration:underline;}
+.copyright_area{ width:296px; height:33px; float:left; font:normal 11px arial; color:#cff1f6; padding-top:25px;}
+/***********************************End Footer Css**********************************************************/
+
+
+
+
+
+
+
+
+/*Dynamick Tab CSS*/
+
+.content { float:left; clear:both; background: #ffffff; width:475px;  border: 1px solid #d2d2d2; border-width:1px 1px 1px 1px; height:241px;}
+.box_bar{ width:475px; height:40px; background:#e6efc5}
+.box_white_bar{ width:475px; height:40px; background:#fff}
+.price_box{ width:76px; height:30px; float:left; font:bold 14px arial; color:#002c69; text-align:center; padding-top:10px;}
+.price_descriptions{ width:399px; height:30px; float:left; font:normal 14px arial; color:#002c69; text-align:left; padding-top:10px;}
+			
+.tabs {
+	float:left;
+	font:normal 12px arial;
+	color:#fff;
+	}
+
+.tabs ul {
+	margin:0;
+	padding:10px 10px 0 0px;
+	list-style:none;
+	
+	}
+
+.tabs li {
+	display:inline;
+	margin:0;
+	padding:0;
+	font:normal 12px arial;
+	color:#fff;
+	}
+
+.tabs a {
+	float:left;
+	background:url("../images/left.png") no-repeat left top;
+	margin:0;
+	padding:0 0 0 8px;
+	text-decoration:none;
+	height:38px;
+	}
+
+.tabs a span {
+	float:left;
+	display:block;
+	background:url("../images/right.png") no-repeat right top;
+	padding:13px 10px 8px 0px;
+	margin-right:3px;
+	color:#FFF;
+	height:38px;
+	}
+
+/* Commented Backslash Hack hides rule from IE5-Mac \*/
+.tabs a span {float:none;}
+
+/* End IE5-Mac hack */
+.tabs a:hover span {
+	}
+
+.tabs a:hover {
+	background-position:0% -38px;
+	height:38px;
+	}
+
+.tabs a:hover span {
+	background-position:100% -38px;
+	}
+
+.page_list{ width:475px; height:26px; float:left; margin-top:12px;}
+.page_left{ width:261px; height:26px; float:left; font:normal 13px arial; color:#000000; text-align:left;}
+.see_all{ width:174px; height:26px; float:left; font:normal 13px arial; color:#000000; text-align:left;}
+.next_link{ width:39px; height:26px; float:left; font:normal 13px arial; color:#000000; text-align:left;}
+
+.see_all a{color:#000000; text-decoration:none;}
+.see_all a:hover{color:#000000; text-decoration:underline;}
+
+.next_link a{color:#000000; text-decoration:none;}
+.next_link a:hover{color:#000000; text-decoration:underline;}
+
+
+
+/*
+ * SimpleModal Basic Modal Dialog
+ * http://www.ericmmartin.com/projects/simplemodal/
+ * http://code.google.com/p/simplemodal/
+ *
+ * Copyright (c) 2010 Eric Martin - http://ericmmartin.com
+ *
+ * Licensed under the MIT license:
+ *   http://www.opensource.org/licenses/mit-license.php
+ *
+ * Revision: $Id: basic.css 257 2010-07-27 23:06:56Z emartin24 $
+ */        
+#basic-modal-content { display:none}
+#basic-error-content { display:none}
+
+#div_hours { display:none}
+#div_hours { display:none}
+
+/* Overlay */
+#simplemodal-overlay {background:none; background-color:#000;cursor:default;}
+
+/* Container */
+#simplemodal-container {width:540px; height:auto;}
+
+ 
+#simplemodal-container .simplemodal-data { padding:3px;}
+#simplemodal-container a.modalCloseImg {background:url(../images/cross.png) no-repeat; width:25px; height:29px; display:inline; z-index:3300; position:absolute; top:5px; right:3px; cursor:pointer;}
+
+/*Popup Header Area*/
+.pop_up_area .header_top_round{ width:540px; height:40px;}
+.header_top_round .popup_round{ background:url(../images/popup_top_round.png) top left no-repeat; width:540px; height:5px;}
+.header_top_round .header_content_area{ width:540px; height:35px; background:#95ac07;}
+.header_content_area .pop_enter_left{ width:493px; float:left; height:35px; margin:5px 0px 0px 18px; font:normal 19px arial; color:#fff; }
+.header_content_area .cross_area{ width:11px; margin:0px 0px 0px 10px; float:left;}
+/*Popup Header Area*/
+
+/*Popup Footer Area*/
+.pop_up_area .footer_top_round{ width:540px; height:40px;}
+.footer_top_round .bottom_popup_round{ background:url(../images/pop_bottom_round.png) top left no-repeat; width:540px; height:5px;}
+.footer_top_round .bottom_content_area{ width:522px; height:25px; padding:10px 18px 0px 0px; background:#FFFFFF; background:#dddddd; font:bold 12px arial; color:#000; text-align:right;}
+.bottom_content_area a{color:#438bca; text-decoration:none;}
+.bottom_content_area a:hover{color:#438bca; text-decoration:none;}
+/*End Popup Footer Area*/
+
+/*Popup Body Part Area*/
+.pop_up_area .popup_body_area{width:540px; height:auto; background:#f6f6f6;}
+.popup_body_area .pop_form_area{width:510px; height:auto; margin:0px 15px 0px 15px; color:#000; font:normal 12px arial; text-align:left; padding-top:20px; }
+.pop_form_area a{color:#000; text-decoration:none;}
+.pop_form_area a:hover{color:#438bca; text-decoration:underline;}
+/*End Popup Body Part Area*/
+
+
+/* End Popup Box CSS */
+
+/* Popup Box Content */
+
+.popcontent_area{ width:500px; height:auto; float:left;}
+.popcontent_area .pop_left_content{ width:100px; height:auto; float:left; text-align:left; padding-bottom:10px;}
+.popcontent_area .pop_right_content{ width:400px; height:auto; float:left; text-align:left; font:normal 12px arial; color:#000; padding-bottom:10px;}
+
+.popcontent_area .pop_left_content1{ width:150px; height:auto; float:left; text-align:left; padding-bottom:10px;}
+.popcontent_area .pop_right_content1{ width:350px; height:auto; float:left; text-align:left; font:normal 12px arial; color:#000; padding-bottom:10px;}
+
+
+.category_area{width:980px; height:auto; float:left;}
+.top_round{width:980px; height:5px; background:url(../images/top_bar.jpg) top left repeat-x;}
+.bottom_round{width:980px; height:5px; background:url(../images/bottom_bar.jpg) top left repeat-x;}
+.center_bar{ width:941px; border:1px solid #b1c179; border-width:0px 1px 0px 1px; background:#f9fdec; padding-left:37px; padding-top:30px; }
+.category_heading{ font:normal 18px arial; color:#002c69; border-bottom:1px solid #acc1c8; padding-bottom:10px; width:908px;}
+.category_list_area{ width:230px; height:auto; margin-top:27px; float:left; font:normal 14px arial; color:#767670;}
+.category_list_area ul{ margin:0px; padding:0px; list-style-type:none;}
+.category_list_area li{ line-height:22px; background:url(../images/blue_arrow.jpg) top left no-repeat; background-position:0 50%; padding-left:15px;}
+.category_list_area li a{ color:#767670; text-decoration:none;}
+.category_list_area li a:hover{ color:#767670; text-decoration:underline;}
+
+/***********************************User Login Page CSS**********************************************************/
+
+.body_center{width:980px; height:auto; margin:auto; padding:15px 0px 22px 0px;}
+.body_center .left_col1{width:707px; height:auto; float:left; }
+.body_center .right_col1{width:251px; height:auto; float:left; margin-right:22px;}
+.body_border_area1{ width:705px; height:auto; border:1px solid #b1c179; border-width:0px 1px 0px 1px; background:url(../images/body_line.jpg) #f9fdec top left repeat-x;}
+.search_tutorial_area{width:665px; height:auto; padding:23px 20px 0px 20px;}
+.search_top{width:665px; height:185px;}
+.search_top_left{ width:317px; height:185px; float:left; margin-right:31px;}
+.search_top_right{ width:317px; height:185px; float:left;}
+.find_top_tutorial{ width:317px; height:34px; background:url(../images/find_top_tutorial.jpg) top left no-repeat; font:bold 17px arial; text-align:center; text-transform:uppercase; color:#fff; padding-top:15px;}
+.tutor_form_bg{ background:url(../images/tutor_form_bg.jpg) top left no-repeat; width:317px; height:136px;}
+.search_fill_area{ width:286px; height:96px; padding:10px 0px 0px 15px;}
+.search_form_fill_bg{ background:url(../images/search_form_fill_bg.jpg) top left no-repeat; width:286px; height:39px;}
+.tutor_form_bg1{ background:url(../images/tutor_form_bg1.jpg) top left no-repeat; width:317px; height:136px;}
+.search_table{ width:663px; height:auto; border:1px solid #d2d2d2;}
+.search_light_green_box{ width:640px; height:auto; background:#e6efc5; font:normal 14px arial; color:#002c69; padding:10px 0px 10px 23px; }
+.search_light_white_box{ width:640px; height:auto; background:#ffffff; font:bold 13px arial; color:#626568; padding:10px 0px 10px 23px; }
+.border_area1{ width:249px; height:auto; border:1px solid #b1c179; border-width:0px 1px 0px 1px; background:url(../images/border_bg.jpg) #e9f1cc top left repeat-x;}
+.user_name{ margin-top:10px; width:200px; height:30px; background:url(../images/user_name.png) top left no-repeat; float:right; font:normal 17px Arial, Helvetica, sans-serif; text-transform:uppercase; color:#fff; padding-left:33px; padding-top:15px; }
+.profile_area{ width:216px; height:auto; margin-left:17px; margin-top:17px; padding-bottom:0px;}
+.user_border{ width:214px; height:auto; border:1px solid #d2d2d2; border-width:0px 1px 0px 1px; background:#FFFFFF;}
+.user_pic_area{ width:198px; height:auto; padding:5px 0px 0px 8px;}
+.pic_area{ width:57px; height:56px; background:url(../images/pic_area.jpg) top left no-repeat; padding: 5px; float:left;}
+.user_text_area{ width:125px; height:66px; font:normal 11px arial; color:#002c69; float:left; margin-left:5px;}
+.leftmenu ul{ margin:0px;}
+.leftmenu li{ font:normal 14px Arial, Helvetica, sans-serif; color:#002c69; line-height:40px; list-style-type:none; border-bottom:1px dotted #d2d2d2;}
+.leftmenu li a{ color:#002c69; text-decoration:none;}
+.leftmenu li a:hover{ color:#002c69; text-decoration:underline;}
+
+/*********************************** End User Login Page CSS**********************************************************/
+/***********************************Recent Questions Page CSS**********************************************************/
+#tnt_pagination {
+	display:block;
+	text-align:left;
+	height:22px;
+	line-height:21px;
+	clear:both;
+	padding-top:3px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:normal;
+	padding-top:25px;
+	 padding-bottom:25px;
+	 
+}
+
+#tnt_pagination a:link, #tnt_pagination a:visited{
+	padding:7px;
+	padding-top:2px;
+	padding-bottom:2px;
+	border:1px solid #b5d0d5;
+	margin-left:10px;
+	text-decoration:none;
+	background-color:#fff;
+	color:#0072bc;
+	width:22px;
+	font-weight:normal;
+}
+
+#tnt_pagination a:hover {
+	background-color:#e6efc5;
+	border:1px solid #b5d0d5;
+	color:#0072BC;	
+}
+
+#tnt_pagination .active_tnt_link {
+	padding:7px;
+	padding-top:2px;
+	padding-bottom:2px;
+	border:1px solid #b5d0d5;
+	margin-left:10px;
+	text-decoration:none;
+	background-color:#e6efc5;
+	color:#0072BC;
+	cursor:default;
+}
+
+#tnt_pagination .disabled_tnt_pagination {
+	padding:7px;
+	padding-top:2px;
+	padding-bottom:2px;
+	border:1px solid #EBEBEB;
+	margin-left:10px;
+	text-decoration:none;
+	background-color:#F5F5F5;
+	color:#D7D7D7;
+	cursor:default;
+}
+
+
+/***********************************Choose a Question Page CSS**********************************************************/
+
+.pagemark{ font:normal 12px arial; color:#000; padding-bottom:10px;}
+.pagemark a{ color:#000; text-decoration:none;}
+.pagemark a:hover{ color:#000; text-decoration:underline;}
+.question_area{ width:908px; height:auto; border:1px solid #bbbfaf; border-width:1px; margin-top:10px;}
+.question_heading{ width:908px; height:25px; background:#fff; border-bottom:1px solid #bbbfaf; font:bold 12px Arial, Helvetica, sans-serif; color:#6e7d39; padding-top:8px;}
+.amounty_area{ width:85px; height:auto; float:left; padding-left:10px;}
+.status_area{ width:103px; height:auto; float:left; padding-left:10px;}
+.category_area_box{ width:98px; height:auto; float:left; padding-left:10px;}
+.sub_category_area{ width:140px; height:auto; float:left; padding-left:10px;}
+.questions_area_box{ width:322px; height:auto; float:left; padding-left:10px;}
+.due_date_area{ width:100px; height:auto; float:left; padding-left:10px;}
+.light_green_area{ width:908px; height:auto; background:#e6efc5; font:bold 12px Arial, Helvetica, sans-serif; color:#6e7d39; padding-top:13px; padding-bottom:13px;}
+.light_green_area a{ color:#6e7d39; text-decoration:none;}
+.light_green_area a:hover{ color:#6e7d39; text-decoration:underline;}
+.light_blue_area{ width:898px; height:auto; background:#ebfcff; font:normal 12px Arial, Helvetica, sans-serif; color:#6e7d39; padding-top:13px; padding-bottom:13px; padding-left:10px;}
+.light_blue_area a{ color:#6e7d39; text-decoration:none;}
+.light_blue_area a:hover{ color:#6e7d39; text-decoration:underline;}
+
+.questions_area_box1{ width:480px; height:auto; float:left; padding-left:10px;}
+.due_date_area1{ width:170px; height:auto; float:left; padding-left:10px;}
+
+/***********************************End Choose a Question Page CSS**********************************************************/
+
+.highlight{background-color: #D3FF77}
+
+/*Dec 29 edit*/
+
+/***********************************Your Question Page CSS**********************************************************/
+.input_fill{ width:300px; height:32px; background:url(../images/input_background.jpg) top left repeat-x; border:1px solid #afaeaf; outline:none;}
+.input_size{ width:200px; height:22px; font:normal 12px arial; color:#000;}
+.register_area{width:500px; height:auto; float:left;}
+.your_question_area{ width:910px; height:auto; margin-top:10px;}
+.reg_text_title{font:bold 12px arial; color:#002c69; padding-top:5px; padding-bottom:5px;}
+
+.advance_search{ width:908px; height:auto; float:left;}
+.adv_category_area{float:left; width:200px; margin-right:10px;}
+.input_heading{ font:bold 12px arial; color:#000; padding:7px 0px 5px 0px;}
+.input_alert{font:italic 11px arial; color:#000; padding:5px 0px 5px 0px;}
+
+.formbutton{
+cursor:pointer;
+border:outset 1px #ccc;
+background:#94aa00;
+color:#fff;
+font-weight:bold;
+padding: 1px 2px;
+background:url(../images/formbg.gif) repeat-x left top;
+}
+
+
+
+
+
+
+/*Questions and Ans Page*/
+
+.questions_ans_area{width:950px; border:1px solid #b1c179; border-width:0px 1px 0px 1px; background:#f9fdec;  height:auto; padding:14px; }
+.posted_area{ width:724px; height:auto; float:left; font:normal 14px arial; color:#002c69; line-height:18px;}
+.posted_pic_area{ width:226px; height:auto; float:left;}
+.user_posted_area{ width:216px; height:auto;}
+.questions_heading{ font:normal 20px arial; color:#002c69; }
+.questions_heading span{ display:block; background:#FFFFFF; border:1px solid #d2d3d0; width:20px; float:left; text-align:center; margin-right:10px;}
+.questions_posted_area{width:950px; height:auto; float:left; margin-top:20px;}
+.questions_top_round{ background:url(../images/questions_top_round.jpg) top left no-repeat; height:4px; width:950px;}
+.questions_top_round1{ background:url(../images/green_bar.jpg) top left no-repeat; height:29px; width:930px; font:bold 14px arial; color:#fff; padding-top:10px; padding-left:20px;}
+
+.questions_botom_round{ background:url(../images/questions_bottom_round.jpg) top left no-repeat; height:4px; width:950px;}
+.questions_center{ border:1px solid #d2d3d0; border-width:0px 1px 0px 1px; background:#FFFFFF; width:920px; height:auto; padding:14px;}
+.questions_center1{ border:1px solid #d2d3d0; border-width:0px 1px 0px 1px; background:#FFFFFF; width:948px; height:auto;}
+.and_text{font:normal 14px arial; color:#002c69; padding:14px; }
+.and_text1{font:normal 14px arial; color:#002c69; padding:0px 14px 14px 14px; }
+.and_text1 a{color:#002c69; text-decoration:none;}
+.and_text1 a:hover{color:#002c69; text-decoration:underline;}
+
+
+.buy_now_area{ width:948px; height:auto; float:left; margin-bottom:20px; margin-top:20px; border-bottom:1px solid #d2d2d2; padding-bottom:20px;}
+.buy_icon{ width:720px; height:auto; float:left;}
+.and_postname{ width:228px; height:auto; float:left;}
+.questions_center h1{font:bold 16px arial; color:#002c69;}
+.buy_text{ margin-top:32px; margin-left:23px; font:normal 20px arial; color:#002c69;}
+.buy_text a{color:#002c69; text-decoration:none;}
+.buy_text a:hover{color:#002c69; text-decoration:underline;}
+.answere_by{ font:bold 14px arial; color:#002c69; padding-left:10px;}
+.answere_by a{color:#002c69; text-decoration:none;}
+.answere_by a:hover{color:#002c69; text-decoration:underline;}
+
+
+/*********************************** Join Now Page CSS**********************************************************/
+.login_search_top{width:700px; height:auto; margin:auto;}
+.userlogin{ background:#abe2ed;  width:317px; height:auto; float:left;}
+.user_fill_area{ width:286px; height:auto; padding:10px 0px 0px 15px;}
+.bottom_curve{ background:url(../images/bottom_curve.png) top left no-repeat; height:8px; width:317px;}
+.forgot_password{ font:normal 12px arial; color:#000; float:right; padding-top:5px;}
+.forgot_password a{ color:#000; text-decoration:underline;}
+.forgot_password a:hover{ color:#000; text-decoration:none;}
+.login_top_left{ width:317px; height:auto; float:left; margin-right:31px;}
+
+/********************************Preview Your Question****************************************************/
+
+.preview_text{font:normal 13px arial; color:#002c69; padding:0px 14px 14px 0px; }
+.preview_text span{ font-weight:bold;}
+.preview_price{float:left; margin-left: 10px; width:100px; border:1px solid #acc1c8; border-width:1px; background:#FFFFFF; padding:2px 0px 2px 2px;}
+
+
